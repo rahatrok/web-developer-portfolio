@@ -105,8 +105,23 @@ nav a {
     padding: 131px;
     border-radius: 10px;
   background-color: #fff8f3;
-  margin: 130px 230px;
+  margin: 130px 0px;
 }
+.about-info-container{
+    display: flex;
+    justify-content:space-around;
+
+}
+.about-info{
+    text-align: center;
+}
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+} 
+
 .section-title{
 
    
@@ -116,4 +131,27 @@ nav a {
   
   text-align: center;
   color: #181818;
+  
+
+}
+/* skills related styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+   
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+.skill-description{
+    color: #757575;
+}
+
+#what-i-do-description{
+    padding:  30px 130px;
+
 }
